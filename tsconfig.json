@@ -18,7 +18,6 @@
         "emitDecoratorMetadata": true,
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true,
-        "watch": true,
         "sourceMap": true,
         "strictNullChecks": true,
         "outDir": "./dist",

@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/strong-api-constants",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Http protocol constants for Strong API framework",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
