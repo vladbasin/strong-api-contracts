@@ -15,7 +15,7 @@ HTTP protocol useful constants (headers, status codes, content types, methods)
 ## Usage
 
 ```typescript
-import { HttpContentTypes, HttpHeaders, HttpRequestMethods, HttpStatusCodes } from '.';
+import { HttpContentTypes, HttpHeaders, HttpRequestMethods, HttpStatusCodes } from '@vladbasin/strong-api-constants';
 
 console.log(HttpHeaders.AcceptCharset);
 console.log(HttpRequestMethods.Post);
