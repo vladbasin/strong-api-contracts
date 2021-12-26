@@ -1,0 +1,29 @@
+{
+    "name": "@vladbasin/strong-api-constants",
+    "version": "0.0.0",
+    "description": "Http protocol constants for Strong API framework",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "homepage": "https://github.com/vladbasin/strong-api-constants",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladbasin/strong-api-constants.git"
+    },
+    "keywords": [
+        "http",
+        "rest",
+        "api"
+    ],
+    "author": "Vlad Basin <vladbasin@gmail.com>",
+    "license": "GPL-3.0-only",
+    "scripts": {
+        "prepublishOnly": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
+    },
+    "devDependencies": {
+        "barrelsby": "^2.2.0",
+        "ts-node": "^10.4.0",
+        "tsconfig-paths": "^3.12.0",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {}
+}
