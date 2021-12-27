@@ -12,6 +12,7 @@ module.exports = {
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:import/typescript',
+        'prettier',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -20,7 +21,7 @@ module.exports = {
     },
     plugins: ['@typescript-eslint', 'prettier', 'import'],
     rules: {
-        'prettier/prettier': 'error',
+        'prettier/prettier': ['error', { endOfLine: 'auto' }],
         'import/extensions': 'off',
         'import/no-unresolved': 'error',
         'no-console': 'off',
